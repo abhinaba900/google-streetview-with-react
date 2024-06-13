@@ -45,7 +45,7 @@ const MapComponent = () => {
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={11}
+        zoom={15}
         mapTypeId="roadmap"
         onLoad={onLoad}
         onUnmount={onUnmount}
